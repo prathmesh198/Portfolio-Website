@@ -3,78 +3,144 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
+    <title>Prathamesh Shakewar | Software Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
-
 <body>
 
- 
-    <header>
-        <h1>Prathamesh Shakewar</h1>
-        <p>Aspiring Software Developer</p>
-
-        
-        <nav>
-            <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
+<header class="header">
+    <div class="container">
+        <h1 class="logo">Prathamesh Shakewar</h1>
+        <nav class="nav">
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#education">Education</a>
+            <a href="#certifications">Certifications</a>
+            <a href="#contact">Contact</a>
         </nav>
-    </header>
+    </div>
+</header>
 
-    <main>
+<section class="hero">
+    <div class="container hero-layout">
 
-        <section id="about">
-            <h2>About Me</h2>
-
-            <img src="WhatsApp Image 2026-01-02 at 4.56.17 PM.jpeg" alt="Profile picture of Prathamesh" width="200" heigth="200">
-
+        <div class="hero-text">
+            <h2>Software & Web Developer</h2>
             <p>
-                Hello! I am Prathamesh, a computer engineering student who is passionate
-                about web development, Java programming, and machine learning.
-                I enjoy building projects and improving my problem-solving skills.
+                Focused on building scalable, clean, and user-friendly
+                web applications with strong fundamentals.
             </p>
-        </section>
 
-        <section id="skills">
-            <h2>My Skills</h2>
+            <div class="social">
+                <a href="https://www.linkedin.com/in/prathmesh-shakewar-809478366/" target="_blank">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="https://github.com/prathmesh198" target="_blank">
+                    <i class="fab fa-github"></i>
+                </a>
+            </div>
+        </div>
 
-            <ul>
-                <li>Java Programming</li>
-                <li>HTML5 & CSS</li>
-                <li>JavaScript (Basics)</li>
-                <li>Node.js & EJS</li>
-                <li>Machine Learning (Python)</li>
-            </ul>
+        <div class="hero-image">
+            <img src="WhatsApp Image 2026-01-02 at 4.56.17 PM.jpeg" alt="Prathamesh Shakewar">
+        </div>
 
-           
-        </section>
-
-      
-        <section id="contact">
-            <h2>Contact Me</h2>
-
-            <form>
-                <label for="name">Name:</label><br>
-                <input type="text" id="name" name="name" required><br><br>
-
-                <label for="email">Email:</label><br>
-                <input type="email" id="email" name="email" required><br><br>
-
-                <label for="message">Message:</label><br>
-                <textarea id="message" name="message" rows="5" required></textarea><br><br>
-
-                <button type="submit">Send Message</button>
-            </form>
-        </section>
-
-    </main>
+    </div>
+</section>
 
 
-    <footer>
-        <p>&copy; 2026 Prathamesh Shakewar. All Rights Reserved.</p>
-    </footer>
+
+<section id="about" class="section">
+    <div class="container">
+        <h3>About Me</h3>
+        <p>
+            I am a Computer Science undergraduate with strong fundamentals in
+            web development and programming. I enjoy building interactive
+            applications and continuously improving my technical skills.
+        </p>
+    </div>
+</section>
+
+<section id="skills" class="section gray">
+    <div class="container">
+        <h3>Skills</h3>
+        <div class="skills-grid">
+            <div>HTML5</div>
+            <div>CSS3</div>
+            <div>JavaScript</div>
+            <div>React</div>
+            <div>Node.js</div>
+            <div>Express.js</div>
+            <div>MongoDB</div>
+            <div>EJS</div>
+            <div>Tailwind CSS</div>
+            <div>Bootstrap</div>
+            <div>Java</div>
+            <div>Python</div>
+            <div>C</div>
+            <div>C++</div>
+            <div>OpenCV</div>
+            <div>NumPy</div>
+            <div>Pandas</div>
+        </div>
+    </div>
+</section>
+
+<div class="project-card">
+    <img src="Screenshot 2026-01-04 082419.png" alt="Chess Game Project" class="project-img">
+    <h4>Chess Game using Node.js</h4>
+    <p>
+        A web-based chess game built using Node.js, Express, EJS,
+        and JavaScript. Implements standard chess rules with
+        interactive gameplay in the browser.
+    </p>
+    <a href="https://github.com/prathmesh198/chess-game-" target="_blank">
+        View on GitHub
+    </a>
+</div>
+
+
+<section id="education" class="section gray">
+    <div class="container">
+        <h3>Education</h3>
+        <div class="edu-item">
+            <h4>Bachelor of Technology (BTech) – Computer Science</h4>
+            <p>Deogiri Institute of Engineering and Management Studies, Aurangabad</p>
+            <span>2024 – 2028</span>
+        </div>
+        <div class="edu-item">
+            <h4>12th – General Science</h4>
+            <p>Shivaji High School and College</p>
+            <span>2022 – 2023</span>
+        </div>
+    </div>
+</section>
+
+<section id="certifications" class="section">
+    <div class="container">
+        <h3>Certifications & Workshops</h3>
+        <ul class="cert-list">
+            <li>HackerRank Java Certification – Dec 2025</li>
+            <li>JavaScript Fundamentals – GreatStack (Dec 2025)</li>
+            <li>Workshop on Arduino Bootcamp – DIEMS (May 2025)</li>
+            <li>AI for Beginners – HP (Jan 2025)</li>
+        </ul>
+    </div>
+</section>
+
+<section id="contact" class="section gray">
+    <div class="container">
+        <h3>Contact</h3>
+        <p>Email: shakewarprathmesh@gmail.com</p>
+    </div>
+</section>
+
+<footer class="footer">
+    <p>© 2026 Prathamesh Shakewar</p>
+</footer>
 
 </body>
 </html>
