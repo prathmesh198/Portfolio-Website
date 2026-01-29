@@ -85,3 +85,61 @@ and form styling.
 ## Output
 The website is responsive and styled with modern CSS techniques.
 >>>>>>> 33600af6adcdf4ba3e91c484ec0cdbc56c0e4550
+Week 3: JavaScript – Making Websites Interactive 🚀
+📌 Project Overview
+
+This week focuses on JavaScript, the language that brings interactivity to websites. The goal was to enhance a personal portfolio website with dynamic content, interactive features, form validation, and dark/light mode functionality.
+
+Project Highlights:
+
+Fully interactive portfolio website
+
+Dynamic content updates using JavaScript
+
+Form validation with real-time feedback
+
+Dark/Light mode toggle
+
+Image slider and To-Do list
+
+📚 Topics Covered
+
+JavaScript Basics
+
+Variables, data types, and operators
+
+Functions and reusable code
+
+Event handling
+
+DOM Manipulation
+
+Selecting elements
+
+Modifying content, attributes, and styles
+
+Event Listeners
+
+Click, hover, submit, and input events
+
+Form Validation
+
+Validating email and message fields
+
+Showing success/error messages dynamically
+
+Interactive Features
+
+Dark/Light mode toggle
+
+Show/Hide sections
+
+Image slider
+
+To-Do list (add/remove tasks)
+
+Project filtering by technology (optional)
+
+Local Storage
+
+Saving user preferences (e.g., dark mode)
