@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🌐 Portfolio Website (HTML Only)
 
 This is a simple **personal portfolio website** created using **only HTML**.  
@@ -61,3 +62,26 @@ We have included a `.vscode/settings.json` file in this repository. This automat
   
 
 
+=======
+# Week 2 – CSS Styling Portfolio Website
+
+## Description
+This project focuses on styling an HTML portfolio website using CSS.
+It demonstrates layout design, responsive navigation, hover effects,
+and form styling.
+
+## CSS Concepts Used
+- CSS selectors (element, class, ID)
+- Box Model (margin, padding, border)
+- Flexbox for navigation
+- Hover effects
+- Responsive design using media queries
+
+## Files Included
+- index.html
+- style.css
+- images/
+
+## Output
+The website is responsive and styled with modern CSS techniques.
+>>>>>>> 33600af6adcdf4ba3e91c484ec0cdbc56c0e4550
